@@ -1,0 +1,139 @@
+.contact_bg {
+    background: #f1f1f1;
+}
+
+.co__contact {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 80px 0;
+    font-family: var(--font-family);
+}
+
+.co__contact h1 {
+    color: #ff9e30;
+    text-align: center;
+    font-size: 50px;
+}
+
+.co__contact_content {
+    display: flex;
+    flex-direction: row;
+    /* max-width: 200px; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    /* flex-wrap: wrap; */
+}
+
+.co__contact_content1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 70px;
+
+}
+
+.co__contact_content_img img {
+    width: 70px;
+}
+
+.co__contact_content_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.co__contact_content_text h1 {
+    color: rgb(41, 41, 41);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 11px;
+    text-align: left;
+}
+
+.co__contact_content_text button {
+    border: none;
+    background: none;
+    
+    text-align: left;
+    
+    padding: 0;
+    margin: 0;
+}
+
+.co__contact_content_text button p {
+    font-size: 17px;
+    color: #ff9e30;
+    line-height: 0;
+}
+
+.co__contact_content_text button p:hover {
+    color: rgb(102, 102, 102);
+}
+
+@media screen and (max-width: 1050px) {
+    .co__contact {
+        padding: 80px 0;
+    }
+    
+    .co__contact h1 {
+        font-size: 35px;
+    }
+    
+    .co__contact_content {
+        flex-wrap: wrap;
+        margin: 30px 20px;
+    }
+    
+    .co__contact_content1 {
+        padding-bottom: 20px;
+    }
+    
+    .co__contact_content_img img {
+        width: 50px;
+        opacity: 80%;
+    }
+
+    .co__contact_content_text h1 {
+        color: rgb(41, 41, 41);
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        line-height: 11px;
+        text-align: left;
+    }
+    
+    .co__contact_content_text button p {
+        font-size: 17px;
+        color: #e69232;
+        line-height: 0;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .co__contact {
+        padding: 80px 0 40px o;
+    }
+    
+    .co__contact h1 {
+        font-size: 27px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .co__contact_content_text h1 {
+        font-size: 17px;
+        padding-left: 0;
+    }
+    
+    .co__contact_content_text button p {
+        font-size: 15px;
+        color: #e69232;
+        line-height: 0;
+    }
+    
+}

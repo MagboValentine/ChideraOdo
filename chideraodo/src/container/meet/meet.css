@@ -1,0 +1,71 @@
+.co__meet {
+    background: #575757;
+    max-width: 1220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px auto;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.co__meet_content {
+    max-width: 1000px;
+    font-family: var(--font-family);
+    
+}
+
+.co__meet_content h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    color: #f6851f;
+    text-transform: capitalize;
+}
+
+.co__meet_content p {
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1050px) {
+    .co__meet {  
+        margin: 20px 10px;
+        padding-top: 40px;
+    }
+    
+    .co__meet_content {
+        padding: 20px;
+    }
+    
+    .co__meet_content h1 {
+        font-size: 25px;
+    }
+    
+    .co__meet_content p {
+        font-weight: 400;
+        font-size: 15px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .co__meet {  
+        margin: 15px 10px;
+        padding-top: 20px;
+    }
+    
+    .co__meet_content h1 {
+        font-size: 20px;
+    }
+    
+    .co__meet_content p {
+        font-weight: 400;
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+}

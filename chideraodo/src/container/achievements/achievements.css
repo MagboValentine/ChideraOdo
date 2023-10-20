@@ -1,0 +1,52 @@
+/* .background {
+    background-image: url('../../assets/imagebg.png');
+    background-size: cover; Adjust as needed */
+    /* Other CSS properties for styling
+} */
+
+.background {
+    background: #dadada;
+}
+
+.co__achievements {
+    max-width: 1220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 50px auto 0 auto;
+}
+
+.co__achievements_content {
+    font-family: var(--font-family);
+    color: #303030;
+}
+
+.co__achievements_content h1 {
+    font-size: 30px;
+}
+
+.co__achievements_img img {
+    width: 300px;
+}
+
+@media screen and (max-width: 700px) {
+    .co__achievements {
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto 0 auto;
+    }
+    
+    .co__achievements_content h1 {
+        font-size: 20px;
+    }
+
+    .co__achievements_content p {
+        font-size: 14px;
+    }
+    
+    .co__achievements_img img {
+        max-width: 250px;
+        padding-top: 40px;
+    }
+}

@@ -1,0 +1,52 @@
+.beliefs_bg {
+    background: #dadada;
+}
+
+.co__beliefs {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 20px 0 70px 0;
+}
+
+.co__beliefs_content {
+    max-width: 350px;
+    background: #f7f7f7;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
+    font-family: var(--font-family);
+    box-shadow: 0 0 20px #949494;
+}
+
+.co__beliefs_content h1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+    .co__beliefs {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .co__beliefs_content {
+        margin: 20px auto;
+    }
+    
+    .co__beliefs_content h1 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .co__beliefs_content p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .co__beliefs_content {
+        max-width: 250px;
+    }
+}

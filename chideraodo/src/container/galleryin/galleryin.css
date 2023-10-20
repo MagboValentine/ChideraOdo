@@ -1,0 +1,30 @@
+.gallery_bg {
+    background: #f1f1f1;
+}
+
+.co__galleryin {
+    margin: 90px auto 0 auto;
+    /* padding: 30px 0; */
+    /* max-width: 1220px; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    padding: 30px 20px;
+        justify-content: space-evenly;
+}
+
+.co__galleryin_img {
+    padding: 20px 0;
+}
+
+.co__galleryin_img img {
+    width: 380px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+    .co__galleryin {
+        padding: 30px 20px;
+        justify-content: space-evenly;
+    }
+}
